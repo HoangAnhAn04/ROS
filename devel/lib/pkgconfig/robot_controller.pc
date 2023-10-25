@@ -1,0 +1,8 @@
+prefix=/home/hoanganh/src/ws/devel
+
+Name: robot_controller
+Description: Description of robot_controller
+Version: 0.0.0
+Cflags: -I/home/hoanganh/src/ws/src/robot_controller/include
+Libs: -L${prefix}/lib 
+Requires: geometry_msgs nav_msgs roscpp std_msgs std_srvs tf2 tf2_ros actionlib robot_msgs
